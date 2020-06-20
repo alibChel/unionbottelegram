@@ -20,7 +20,7 @@ def button_help_handler(update:Update,context:CallbackContext,game):
     )
 def message(message):
     global  response
-    request= os.environ.get('BOT_TOKEN')
+    request=apiai.ApiAI('44875a454dbd4b0fbbe1613e9240b34d').text_request()
     request.lang='ru'
     request.session_id='session_1'
     request.query=message
