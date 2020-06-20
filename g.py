@@ -6,7 +6,7 @@ from telegram.ext import Updater
 from telegram.ext import CallbackContext
 from telegram.ext import MessageHandler
 from telegram.ext import Filters
-import os
+
 
 button_start='Оставить отзыв'
 button_help='Улучшение Union'
